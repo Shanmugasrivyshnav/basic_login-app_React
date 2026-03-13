@@ -1,0 +1,37 @@
+.message {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.message-box {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.message-box h2 {
+  margin-bottom: 20px;
+  color: #303150;
+}
+.message-box p {
+  font-size: 18px;
+  color: #555;
+}
+.message-box button {
+  background-color: #b5b9ff;
+  color: #303150;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.message-box button:hover {
+  background-color: #a0a4ff;
+}
