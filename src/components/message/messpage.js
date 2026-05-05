@@ -5,7 +5,7 @@ const Message = (props) => {
 
   return (
     <h1 className="message">{isLoggedIn ? "Welcome User" : "Please Login"}Here</h1>
-<h1 className='message'>Good to you {isLoggedIn ? "Welcome User" : "Please Login"}</h1
+    <h1 className='message'>Good to you {isLoggedIn ? "Welcome User" : "Please Login"}</h1
   );
 };
 
